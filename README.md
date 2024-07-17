@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project was created by Gabriel Sánchez (gabrielsanchez.business@proton.me) as part of the Ch3etah Blockchain Project (cheetahblockchain@proton.me).
 
-## Getting Started
 
-First, run the development server:
+The objective of this application is to show a way of tokenizing real estate and providing a way to store it that is secure (thanks to the blockchain technology), more efficient than the traditional property registries and also helps to gather information about the properties more easily.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Get in touch: 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+gabrielsanchez.business@proton.me
+cheetahblockchain@proton.me
+https://www.linkedin.com/in/gsanchez-esp
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+//////////////////////////////////////////////////////////////////////////
+//                     .o;.                               .:o.          //
+//                     ;MMNMXko;.    .';c. 'c;'     .;oOXMNMM.          //
+//                     ;MN .:xKd' '  WOcM: dN;N0 .. 'd0d:. MM.          //
+//                     ;MX     'xNM  WMWM: dMWMK ,MNd.     MM.          //
+//                     ;MX   ,xKKKK  WMox: dokMK ,KKKKx'   MM.          //
+//                     ;Ml           dxWM: dMNxl           kM.          //
+//                     ;, :WWWN, :d;   NM: dM0   :x, :WWWN, l.          //
+//                        ,kWMMMOlcc;  NM: dM0  :c:l0MMMXd.             //
+//                       .l. :OMMMMNc  NM0xKM0  dWMMMMk, .d             //
+//                        .dk:.MMMo ,Oc;:::::,xk. xMMX.lOl.             //
+//                       .l. ;OMMM ;MMX:     cNMM'.MMMx' .d             //
+//                        'dk; MMM :MMMMN' :WMMMM'.MMN.lOl.             //
+//                       .l. ;OMMM  ;OMkc. 'cOMk, .MMMx' .d             //
+//                       .WMO;.MMM   ;W:     lW'  .MMN cKMN             //
+//                         cXMWMMM    ..     .    .MMMWM0;              //
+//                           ,OMMMc               dMMWx.                //
+//                       .0;   .dWMWl  k.   'd  dWMNl    cX             //
+//                       .MMNl.   :KX  KOooo0k  WO,   .dWMM             //
+//                       .MMNMMx.   .  ,.....,  .   ,OMWNMM             //
+//                       .MMo.dWMK;    OWMMMNd    cXMXc kMM             //
+//                       .MMWNNWMMMNl          .oWMMMNNNWMM             //
+//                        ;;;;;;;;;;;,         ,;;;;;;;;;;              //
+//////////////////////////////////////////////////////////////////////////
