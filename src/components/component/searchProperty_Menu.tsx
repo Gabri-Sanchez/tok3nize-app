@@ -64,7 +64,6 @@ export function SearchProperty_Menu() {
 
     async function handleByIdSearch(event: any) {
         event.preventDefault();
-        const url = process.env.NEXT_PUBLIC_SERVER_URL;
         try {
             setLoadingButton("ownerId");
             const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/api/getPropertiesByOwnerId?ownerId=${data.ownerId}`, {

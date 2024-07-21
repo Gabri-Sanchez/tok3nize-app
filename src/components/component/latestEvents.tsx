@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
+import { RefreshCcw } from "lucide-react";
 
 
 
@@ -10,7 +11,7 @@ export function LatestEvents() {
     const [creationsData, setCreationsData] = useState([]);
     const [deletionsData, setDeletionsData] = useState();
     const [transfersData, setTransferData] = useState();
-
+    const [isUpdating, setIsUpdating] = useState(false);
     
     enum eventType {
       Creation,
@@ -34,7 +35,7 @@ export function LatestEvents() {
         event.preventDefault();
 
         setShow(eventType.Creation);
-
+        setIsUpdating(true);
         const url = process.env.NEXT_PUBLIC_SERVER_URL;
         try {
             const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/api/getCreations`, {
@@ -47,13 +48,20 @@ export function LatestEvents() {
             setCreationsData(result);
         } catch (error : any) {
             console.log(error.message);
+        } finally {
+          setIsUpdating(false);
         }
         
     }
 
     useEffect(() => {
+      setInterval(() => handleGetCreations(new Event('')), 10000)
+    })
+
+    useEffect(() => {
       handleGetCreations(new Event(''))
     }, [])
+
     async function handleGetTransfers(event: any) {
       event.preventDefault();
 
@@ -142,7 +150,11 @@ export function LatestEvents() {
     return(
         <section className="mb-8">
         <div className="">
-            <h1 className="text-4xl font-bold mb-5">Latest Properties Created</h1>
+            <h1 className="text-4xl font-bold mb-5">Latest Properties Created
+              <Button>
+                <RefreshCcw className={isUpdating ? "mr-2 h-4 w-4 animate-spin" : ""} onClick={handleGetCreations}></RefreshCcw>
+              </Button>
+            </h1>
             {/* For now, we only see the latest creations
             <h1 className="text-4xl font-bold mb-5">Latest Events</h1>
             <Button className="mt-4 text-white border mb-5 mr-5" onClick={handleGetCreations}>Creations</Button>

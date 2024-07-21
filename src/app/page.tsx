@@ -46,7 +46,7 @@ export default function Home() {
       </div>
       <footer className="text-gray-300 pt-10">
         <p>
-          Developed by Cheetah Blockchain. Contact at: gabrielsanchez.business@proton.me, cheetahblockchain@proton.me. 
+          Developed by Cheetah Blockchain. Contact at: gabrielsanchez.business@proton.me, cheetahblockchain@proton.me.&nbsp;&nbsp;
           <a href="https://www.linkedin.com/in/gsanchez-esp" target="_blank">https://www.linkedin.com/in/gsanchez-esp</a>
         </p>
       </footer>
