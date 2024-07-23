@@ -55,10 +55,6 @@ export function LatestEvents() {
     }
 
     useEffect(() => {
-      setInterval(() => handleGetCreations(new Event('')), 10000)
-    })
-
-    useEffect(() => {
       handleGetCreations(new Event(''))
     }, [])
 
