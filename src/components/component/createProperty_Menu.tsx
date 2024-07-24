@@ -102,7 +102,7 @@ export function CreateProperty_Menu() {
             Create property
             
           </h2>
-          <CreateManual buttonClassName={"ml-4 px-4 py-2 border rounded text-white"} contentClassName={"bg-black text-white border border-white rounded p-4 max-w-sm w-full overflow-auto"}></CreateManual>
+          <CreateManual buttonClassName={"mb-2 ml-4 px-4 py-2 border rounded text-white"} contentClassName={"bg-black text-white border border-white rounded p-4 max-w-sm w-full overflow-auto"}></CreateManual>
           </div>
           <form method="post" onSubmit={handleSubmit}>
           <div className="grid grid-cols-2 gap-4">

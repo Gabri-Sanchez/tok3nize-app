@@ -163,8 +163,10 @@ export function SearchProperty_Menu() {
     return(
         <>
         <section>
+        <div className="flex items-center">
         <h2 className="text-3xl font-bold mb-4 text-white">Search properties</h2>
-        <h3>Remember, no data will appe</h3>
+        <h3 className="text-gray-300 ml-4 mb-2 align-center">Search by one of these details</h3>
+        </div>
         <div className="space-y-4">
           <div className="flex space-x-4">
             <Input 
